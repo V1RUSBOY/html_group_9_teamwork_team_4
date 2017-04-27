@@ -1,16 +1,167 @@
 body{
-	font-family: Arial, "Helvetica CY", "Nimbus Sans L", sans-serif;
-
-	color:#000;
-	background: #fff;
+	font-family: 'Lato', sans-serif;
+	color:#fff;
+	background: #000;
 	font-size: 14px;
 	line-height: 1.3;
-	min-width: 320px;
-
+	min-width: 300px;
 }
 .container{
-	min-width: 320px;
-	width: 100%;
-	max-width: ;
+	min-width: 300px;
+	max-width: 1300px;
 	margin: 0 auto;
+}
+header{
+	position: absolute;
+	width: 100%;
+	z-index: 4;
+}
+.carousel{
+	width: 100%;
+	position: relative;
+}
+.carousel img{
+	display: block;
+	height: auto;
+	width: 100%;
+	z-index: 2;
+}
+.header-top{
+	margin: 20px 0 0;
+	position: relative;
+}
+.logo{
+	float: left;
+	font-size: 30px;
+	font-weight: 900;
+	color: #fff;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+.logo span{
+	font-weight: 400;
+}
+.nav{
+	float: right;
+}
+.nav ul {
+	display: inline-block;
+}
+.nav ul li{
+	display: inline-block;
+	padding-right: 20px;
+}
+.nav ul li:last-child{
+	padding-right:  0;
+}
+.nav ul li a{
+	font-weight: 400;
+	font-size: 16px;
+	text-transform: uppercase;
+	color: #fff;
+	text-decoration: none;
+}
+.nav ul li a i{
+	padding-left: 20px;
+}
+.slick-arrow{
+	position: absolute;
+	height: 100%;
+	width: 6%;
+	background: transparent;
+	border: none;
+	z-index: 100;
+	bottom: 0;
+	padding: 0;
+}
+.slick-arrow::before{
+	content: '';
+	width: 38px;
+	height: 77px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin: -25px 0 0 -25px;
+}
+.slick-slide{
+	position: relative;
+}
+.slick-dots li{
+	display: none;
+}
+.slick-arrow::before{
+	top: 30%;
+	cursor: pointer;
+	background: url(../img/arrow-slider.png) 50% 26px no-repeat;
+	width: 70px;
+	height: 70px;
+	border-radius: 50%;
+	border: 1px solid #fff;
+	left: 125px;
+}
+.slick-prev{
+	left: 0;
+	font-size: 0;
+}
+.slick-next{
+	right: 0;
+	font-size: 0;
+}
+.slick-next.slick-arrow::before{
+	top: 30%
+	cursor: pointer;
+	left: -66px;
+	background-position: 50% -26px;
+}
+.box-1 h3{
+	text-transform: uppercase;
+	font-size: 78px;
+	font-weight: 900;
+	margin: 0;
+}
+.box-1 h3 span{
+	font-size: 42px;
+	display: block;
+	font-weight: 700;
+	padding-left: 35px;
+}
+.box-1{
+	position: absolute;
+	top: 40%;
+	width: 37%;
+}
+.box-2{
+	position: absolute;
+	top: 40%;
+	width: 50%;
+	right: 0;
+	text-align: center;
+}
+.box-2 p{
+	padding: 0 60px;
+	font-size: 30px;
+	font-weight: 400;
+	margin: 12px 0 100px;
+}
+.box-2 a{
+	text-decoration: none;
+	font-size: 16px;
+	color: #fff;
+	border: 1px solid #fff;
+	padding: 10px 40px;
+	text-transform: uppercase;
+	display: block;
+	width: 31%;
+	margin: 0 auto;
+	position: relative;
+	letter-spacing: 2px;
+}
+.box-2 a::before{
+	content: '';
+	width: 50px;
+	height: 1px;
+	position: absolute;
+	top: -50px;
+	left: 75px;
+	background: #fff;
 }

@@ -1,5 +1,21 @@
-@media screen and (max-width: 960px){
-
+@media screen and (max-width: 1100px){
+	.box-1{
+		top: 30%;
+		width: 46%;
+	}
+	.box-2{
+		top: 30%;
+		right: 10px;
+	}
+	.box-2 p{
+		padding: 0;
+	}
+	.box-2 a{
+		padding: 10px 20px;
+	}
+	.box-2 a::before{
+		left: 50px;
+	}
 	.menu-btn{
 		float: right;
 		width: 55px;
@@ -76,3 +92,114 @@
 		display: none;
 	}
 }
+@media screen and (max-width: 880px){
+	.box-1 h3{
+		font-size: 50px;
+	}
+	.box-1 h3 span{
+		font-size: 30px;
+	}
+	.box-2 a::before{
+		display: none;
+	}
+	.box-2 p{
+		font-size: 24px;
+		margin-bottom: 30px;
+	}
+	.box-2 a{
+		font-size: 10px;
+		padding: 10px 0;
+		width: 29%;
+	}
+}
+@media screen and (max-width: 686px){
+	.box-1{
+		top: 25%;
+		left: 34%;
+	}
+	.box-1 h3{
+		font-size: 35px;
+	}
+	.box-1 h3 span{
+		font-size: 15px;
+	}
+	.box-2{
+		left: 25%;
+		top: 47%;
+	}
+	.box-2 p{
+		font-size: 16px;
+		margin-bottom: 15px;
+	}
+}
+@media screen and (max-width: 540px){
+	.slick-arrow::before {
+		top: 36%;
+		background: url(../img/arrow-slider.png) 50% 5px no-repeat;
+		width: 30px;
+		height: 30px;
+		left: 120%;
+	}
+	.slick-next.slick-arrow::before {
+		top: 38%;
+		left: 6px;
+		background-position: 60% -45px;
+	}
+	.box-1{
+		top: 25%;
+		left: 40%;
+	}
+	.box-1 h3{
+		font-size: 20px;
+	}
+	.box-1 h3 span{
+		padding: 0;
+		font-size: 12px;
+	}
+	.box-2{
+		left: 25%;
+		top: 38%;
+	}
+	.box-2 p{
+		font-size: 12px;
+		margin-bottom: 10px;
+	}
+	.box-2 a {
+		font-size: 7px;
+		padding: 5px 0;
+		width: 30%;
+	}
+	@media screen and (max-width: 370px){
+		.slick-arrow::before {
+			top: 95%;
+			left: 120%;
+		}
+		.slick-next.slick-arrow::before {
+			top: 95%;
+			left: 6px;
+		}
+		.box-1{
+			top: 50%;
+			left: 2%;
+		}
+		.box-1 h3{
+			font-size: 20px;
+		}
+		.box-1 h3 span{
+			padding: 0;
+			font-size: 12px;
+		}
+		.box-2{
+			left: 46%;
+			top: 45%;
+		}
+		.box-2 p{
+			font-size: 8px;
+			margin-bottom: 10px;
+		}
+		.box-2 a {
+			font-size: 7px;
+			padding: 5px 0;
+			width: 50%;
+		}
+	}

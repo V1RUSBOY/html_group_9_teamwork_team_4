@@ -93,6 +93,9 @@
 	}
 }
 @media screen and (max-width: 880px){
+	.item .link::before{
+		display: none;
+	}
 	.box-1 h3{
 		font-size: 50px;
 	}
@@ -113,6 +116,24 @@
 	}
 }
 @media screen and (max-width: 686px){
+	.item{
+		width: 100%;
+		float: right;
+		padding: 50px 0;
+	}
+	.item h3{
+		padding: 0 15px;
+		font-size: 25px;
+		margin: 0 0 20px;
+	}
+	.item .link{
+		width: 43%;
+		top: 28px;
+	}
+	.carousel_2 .link{
+			margin: 0 34%;
+			width: 39%;
+		}
 	.box-1{
 		top: 25%;
 		left: 34%;
@@ -133,6 +154,14 @@
 	}
 }
 @media screen and (max-width: 540px){
+	.item p{
+		font-size: 15px;
+		padding: 0 15px;
+	}
+	.carousel_2 .link{
+			margin: 0 46%;
+			width: 44%;
+		}
 	.slick-arrow::before {
 		top: 36%;
 		background: url(../img/arrow-slider.png) 50% 5px no-repeat;
@@ -170,6 +199,30 @@
 		width: 30%;
 	}
 	@media screen and (max-width: 370px){
+		.carousel .slick-arrow::before{
+			display: none;
+		}
+		.carousel_2{
+			padding: 31px 0 40px;
+		}
+		.carousel_2 .link{
+			width: 74%;
+		}
+		.carousel_2 h3{
+			padding: 0 50px;
+			font-size: 40px;
+			margin: 0 0 70px;
+		}
+		.sliders{
+			padding-bottom: 70px;
+		}
+		.carousel_2 h3::before{
+			display: none;
+		}
+		.sliders .slick-dots{
+			top: -11%;
+			left: 47%;
+		}
 		.slick-arrow::before {
 			top: 95%;
 			left: 120%;
@@ -177,6 +230,9 @@
 		.slick-next.slick-arrow::before {
 			top: 95%;
 			left: 6px;
+		}
+		.carousel_2 .link{
+			margin: 0 15%;
 		}
 		.box-1{
 			top: 50%;

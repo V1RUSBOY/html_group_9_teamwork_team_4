@@ -432,6 +432,27 @@ header{
 * 5 = Footer
 */
 
+/*<!--1. Header our-works
+============================================================ -->*/
+.our_works{
+	width: 100%;
+	background: #373c44;
+}
+.our_works .header-top{
+	margin: 0;
+}
+.our_works .logo{
+	line-height: 85px;
+}
+.our_works .nav ul li{
+	padding: 54px 20px 47px 0;
+}
+.our_works .nav ul li:last-child{
+	padding-right: 0;
+}
+/*<!--1. End header-our-works
+============================================================ -->*/
+
 
 
 /*<!--1. Our Works Block

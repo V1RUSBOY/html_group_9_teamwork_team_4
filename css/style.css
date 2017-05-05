@@ -235,7 +235,47 @@ header{
 
 /*<!--7. Testimonials
 ============================================================ -->*/
-
+.testimonials{
+	padding: 0 0 157px 0;
+	background: #fff;
+}
+.testimonials h3{
+	font-size: 40px;
+	color: #626262;
+	text-transform: uppercase;
+	text-align: center;
+	margin: 0 0 134px -8px;
+	font-family: 'Lato', sans-serif;
+	font-weight: 400;
+}
+.testimonials h3::before{
+	content: '';
+	width: 50px;
+	height: 1px;
+	position: absolute;
+	top: 91px;
+	left: 47.9%;
+	background: #626262;
+}
+.testimonials div p{
+	font-size: 20px;
+	color: #626262;
+	text-align: center;
+	margin: 0 0 78px 0;
+	padding: 0px 55px 0 100px;
+	line-height: 36px;
+	font-family: 'Lato', sans-serif;
+	font-weight: 400;
+}
+.testimonials div span{
+	display: block;
+	font-size: 20px;
+	color: #000;
+	text-align: center;
+	font-family: 'Lato', sans-serif;
+	font-weight: 700;
+	margin: 0 0 0 -6px;
+}
 
 /*<!--7. End Testimonials
 ============================================================ -->*/
@@ -244,7 +284,71 @@ header{
 
 /*<!--8. Blue block
 ============================================================ -->*/
-
+.blue-block{
+	background: #2a63c1;
+	padding: 78px 0 65px 0;
+}
+.blue-block .block h3{
+	font-size: 40px;
+	color: #fff;
+	text-transform: uppercase;
+	text-align: center;
+	margin: 0 0 130px -7px;
+	position: relative;
+	font-family: 'Lato', sans-serif;
+	font-weight: 400;
+}
+.blue-block .block h3::before{
+	content: '';
+	width: 50px;
+	height: 1px;
+	position: absolute;
+	top: 92px;
+	left: 48.1%;
+	background: #fff;
+}
+.forms{
+	width: 625px;
+	padding: 0 5px 0 0;
+	margin: 0 auto 87px auto;
+}
+.forms input{
+	width: 100%;
+	border: 2px solid #fff;
+	padding: 18px 0px 18px 0px;
+}
+.forms input[type="email"]{
+	background: #2a63c1;
+	font-size: 26px;
+	color: #829cd5;
+	text-align: center;
+	border-bottom: none;
+	font-family: 'Lato', sans-serif;
+	font-weight: 400;
+	padding-right: 16px;
+}
+.forms input[type="submit"]{
+	font-size: 24px;
+	color: #fff;
+	text-transform: uppercase;
+	background: #204b93;
+	font-family: 'Lato', sans-serif;
+	font-weight: 700;
+	letter-spacing: 6px;
+}
+.blue-block .block h4{
+	font-size: 30px;
+	color: #fff;
+	text-transform: uppercase;
+	text-align: center;
+	margin: 0 0 0 -5px;
+		font-family: 'Lato', sans-serif;
+	font-weight: 400;
+}
+.blue-block .block h4 span{
+			font-family: 'Lato', sans-serif;
+	font-weight: 700;
+}
 
 /*<!--8. End Blue block
 ============================================================ -->*/
@@ -253,7 +357,61 @@ header{
 
 /*<!--9. Footer
 ============================================================ -->*/
-
+footer{
+	background: #373c44;
+	min-height: 130px;
+	padding: 57px 0 0 0;
+}
+footer .foot-nav{
+	margin: auto 0;
+	float: left;
+}
+footer .foot-nav ul {
+	display: inline-block;
+}
+footer .foot-nav ul li{
+	display: inline-block;
+	padding-right: 20px;
+}
+footer .nav ul li:last-child{
+	padding-right:  0;
+}
+footer .foot-nav ul li a{
+	font-weight: 400;
+	font-size: 14px;
+	text-transform: uppercase;
+	color: #7c7e82;
+	text-decoration: none;
+}
+footer .foot-nav ul li a i{
+	padding-left: 20px;
+}
+footer .mail{
+	display: inline-block;
+	padding: 0;
+	font-size: 14px;
+	text-transform: uppercase;
+	color: #7c7e82;
+	margin: 14px 0 0 240px;
+}
+footer .mail a{
+	color: #7c7e82;
+	text-decoration: none;
+	text-transform: none;
+}
+footer .num{
+	float: right;
+	display: inline-block;
+	padding: 0;
+	font-size: 14px;
+	text-transform: uppercase;
+	color: #7c7e82;
+	padding: 0;
+	margin: 14px 0 0 0;
+}
+footer .num>span{
+	text-transform: none;
+}
 
 /*<!--9. End Footer
 ============================================================ -->*/

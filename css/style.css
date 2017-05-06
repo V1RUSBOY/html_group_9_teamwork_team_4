@@ -728,8 +728,21 @@ footer .num>span{
 
 /*<!--2. Green line
 ============================================================ -->*/
-
-
+.green-line{
+	background: #00c59e;
+	text-align: center;
+	padding: 20px 0;
+	margin-bottom: 90px;
+}
+.green-line h5{
+	margin: 0;
+}
+.green-line h5 a{
+	text-decoration: none;
+	font-size: 50px;
+	color: #fff;
+	font-weight: 400;
+}
 /*<!--2. End Green line
 ============================================================ -->*/
 

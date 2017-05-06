@@ -435,8 +435,9 @@ header{
 /*<!--1. Header our-works
 ============================================================ -->*/
 .our_works{
-	width: 100%;
 	background: #373c44;
+	position: static;
+	margin-bottom: 126px;
 }
 .our_works .header-top{
 	margin: 0;
@@ -451,6 +452,9 @@ header{
 .our_works .nav ul li:last-child{
 	padding-right: 0;
 }
+.our_works .nav ul li a:hover{
+	color: #989794;
+}
 /*<!--1. End header-our-works
 ============================================================ -->*/
 
@@ -458,10 +462,107 @@ header{
 
 /*<!--1. Our Works Block
 ============================================================ -->*/
-h3{
-	color: #000;
+.our-works-block{
+	margin-bottom: 98px;
 }
-
+.our-works-block h3{
+	font-weight: 400;
+	padding: 0 50px;
+	font-size: 40px;
+	text-transform: uppercase;
+	color: #3c2839;
+	margin: 0 0 135px;
+	position: relative;
+	text-align: center;
+}
+.our-works-block h3::before{	
+	content: '';
+	position: absolute;
+	width: 50px;
+	height: 1px;
+	top: 90px;
+	left: 48%;
+	background: #626262;
+}
+.flex-our-works{
+	display: flex;
+	flex-flow: nowrap;
+	height: 100%;
+	justify-content: center;
+	margin-bottom: 70px;
+}
+.item-our-works{
+	width: 15%;
+	padding: 15px 0;
+	text-align: center;
+	text-transform: uppercase;
+}
+.item-our-works a{
+	font-size: 15px;
+	color: #fff;
+	text-decoration: none;
+}
+.all{
+	background: #eaeaea;
+}
+.all a{
+	color: #626262;
+}
+.mobile{
+	background: #00c59e;
+}
+.web{
+	background: #df4343;
+}
+.identity{
+	background: #64b341;
+}
+.brand{
+	background: #874ab6;
+}
+.graphic{
+	background: #ffa200;
+}
+.motion{
+	background: #2f84e5;
+}
+.flex-our-works-img{
+	display: flex;
+	flex-flow: wrap;
+	height: 100%;
+	justify-content: space-around;
+}
+.item-card a img{
+	display: block;
+	width: 100%;
+	height: auto;
+}
+.item-card{
+	width: 32%;
+	padding: 0 0 40px;
+	text-align: center;
+	text-transform: uppercase;
+	margin-right: 24px;
+}
+.item-card:nth-child(3){
+	margin-right: 0;
+}
+.item-card:nth-child(6){
+	margin-right: 0;
+}
+.item-card:nth-child(9){
+	margin-right: 0;
+}
+.link-our-works{
+	font-weight: 700;
+	display: block;
+	padding-top: 37px;
+	text-align: center;
+	font-size: 18px;
+	text-transform: uppercase;
+	text-decoration: none;
+	color: #060606;
+}
 /*<!--1. End Our Works Block
 ============================================================ -->*/
 

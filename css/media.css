@@ -16,6 +16,9 @@
 	.box-2 a::before{
 		left: 50px;
 	}
+	.our_works .nav ul li{
+		padding: 15px 0;
+	}
 	.menu-btn{
 		float: right;
 		width: 55px;
@@ -82,6 +85,9 @@
 		border-radius: 3px;
 		border-top-right-radius: 0;
 	}
+	.our_works .nav{
+		opacity: 1;
+	}
 	.nav ul{
 		padding: 0;
 	}
@@ -90,6 +96,16 @@
 	}
 	.nav a i{
 		display: none;
+	}
+	.flex-our-works{
+		flex-flow: wrap;
+	}
+	.item-our-works{
+		width: 30%;
+	}
+	.item-card{
+		width: 30%;
+		margin-right: 5px;
 	}
 }
 @media screen and (max-width: 880px){
@@ -114,6 +130,13 @@
 		padding: 10px 0;
 		width: 29%;
 	}
+	.item-our-works{
+		width: 50%;
+	}
+	.item-card{
+		width: 45%;
+		margin-right: 0;
+	}
 }
 @media screen and (max-width: 686px){
 	.item{
@@ -131,9 +154,9 @@
 		top: 28px;
 	}
 	.carousel_2 .link{
-			margin: 0 34%;
-			width: 39%;
-		}
+		margin: 0 34%;
+		width: 39%;
+	}
 	.box-1{
 		top: 25%;
 		left: 34%;
@@ -159,9 +182,9 @@
 		padding: 0 15px;
 	}
 	.carousel_2 .link{
-			margin: 0 46%;
-			width: 44%;
-		}
+		margin: 0 46%;
+		width: 44%;
+	}
 	.slick-arrow::before {
 		top: 36%;
 		background: url(../img/arrow-slider.png) 50% 5px no-repeat;
@@ -198,64 +221,85 @@
 		padding: 5px 0;
 		width: 30%;
 	}
-	@media screen and (max-width: 370px){
-		.carousel .slick-arrow::before{
-			display: none;
-		}
-		.carousel_2{
-			padding: 31px 0 40px;
-		}
-		.carousel_2 .link{
-			width: 74%;
-		}
-		.carousel_2 h3{
-			padding: 0 50px;
-			font-size: 40px;
-			margin: 0 0 70px;
-		}
-		.sliders{
-			padding-bottom: 70px;
-		}
-		.carousel_2 h3::before{
-			display: none;
-		}
-		.sliders .slick-dots{
-			top: -11%;
-			left: 47%;
-		}
-		.slick-arrow::before {
-			top: 95%;
-			left: 120%;
-		}
-		.slick-next.slick-arrow::before {
-			top: 95%;
-			left: 6px;
-		}
-		.carousel_2 .link{
-			margin: 0 15%;
-		}
-		.box-1{
-			top: 50%;
-			left: 2%;
-		}
-		.box-1 h3{
-			font-size: 20px;
-		}
-		.box-1 h3 span{
-			padding: 0;
-			font-size: 12px;
-		}
-		.box-2{
-			left: 46%;
-			top: 45%;
-		}
-		.box-2 p{
-			font-size: 8px;
-			margin-bottom: 10px;
-		}
-		.box-2 a {
-			font-size: 7px;
-			padding: 5px 0;
-			width: 50%;
-		}
+	.item-our-works{
+		width: 100%;
 	}
+	.item-card{
+		width: 50%;
+	}
+}
+@media screen and (max-width: 370px){
+	.carousel .slick-arrow::before{
+		display: none;
+	}
+	.carousel_2{
+		padding: 31px 0 40px;
+	}
+	.carousel_2 .link{
+		width: 74%;
+	}
+	.carousel_2 h3{
+		padding: 0 50px;
+		font-size: 40px;
+		margin: 0 0 70px;
+	}
+	.sliders{
+		padding-bottom: 70px;
+	}
+	.carousel_2 h3::before{
+		display: none;
+	}
+	.sliders .slick-dots{
+		top: -11%;
+		left: 47%;
+	}
+	.slick-arrow::before {
+		top: 95%;
+		left: 120%;
+	}
+	.slick-next.slick-arrow::before {
+		top: 95%;
+		left: 6px;
+	}
+	.carousel_2 .link{
+		margin: 0 15%;
+	}
+	.box-1{
+		top: 50%;
+		left: 2%;
+	}
+	.box-1 h3{
+		font-size: 20px;
+	}
+	.box-1 h3 span{
+		padding: 0;
+		font-size: 12px;
+	}
+	.box-2{
+		left: 46%;
+		top: 45%;
+	}
+	.box-2 p{
+		font-size: 8px;
+		margin-bottom: 10px;
+	}
+	.box-2 a {
+		font-size: 7px;
+		padding: 5px 0;
+		width: 50%;
+	}
+	.our-works-block h3{
+		font-size: 30px;
+		margin: 0 0 70px;
+	}
+	.our-works-block h3::before{	
+		top: 70px;
+		left: 43%;
+	}
+	.item-card{
+		width: 100%;
+	}
+	.green-line h5 a{
+		font-size: 18px;
+	}
+}

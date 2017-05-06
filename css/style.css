@@ -440,6 +440,7 @@ header{
 }
 .our_works .header-top{
 	margin: 0;
+	overflow: hidden;
 }
 .our_works .logo{
 	line-height: 85px;
@@ -457,7 +458,9 @@ header{
 
 /*<!--1. Our Works Block
 ============================================================ -->*/
-
+h3{
+	color: #000;
+}
 
 /*<!--1. End Our Works Block
 ============================================================ -->*/

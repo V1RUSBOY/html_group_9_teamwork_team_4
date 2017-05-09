@@ -51,3 +51,17 @@ $('#contact-us').click(function(){
 		},600)			
 	}		
 });
+$(document).ready(function(){
+
+	var open_modal = $('.open_modal');
+	var overlay = $('.overlay');
+	var modal = $('.modal');
+
+	open_modal.click(function(event){
+		event.preventDefault;
+		var current_modal = $(this).attr('href');
+		overlay.fadeIn(400, function(){   
+			$(current_modal).css('display', 'block').animate({top: '50%'},400);
+		});
+
+	});

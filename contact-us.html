@@ -8,6 +8,7 @@
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 	<link rel="stylesheet" type="text/css" href="css/media.css">
 	<link rel="stylesheet" href="fonts/Icon_Font.css">
+	<link rel="stylesheet" href="vendor/fancybox/jquery.fancybox.min.css">
 	<link rel="stylesheet" type="text/css" href="vendor/slick/slick.css">
 	<link href="https://fonts.googleapis.com/css?family=Lato:400,700,900" rel="stylesheet">
 </head>
@@ -23,7 +24,7 @@
 				<div class="menu-btn not-active" id="contact-us"><span></span></div>
 				<div class="nav">
 					<ul>
-						<li><a href="#">about us<i>/</i></a></li>
+						<li><a href="#" data-fancybox data-src="#open_modal" class="aurization_link">about us<i>/</i></a></li>
 						<li><a href="#">work<i>/</i></a></li>
 						<li><a href="#">services<i>/</i></a></li>
 						<li><a href="#">blog<i>/</i></a></li>
@@ -43,6 +44,35 @@
 
 
 
+	<!-- Modal
+	================================================================= -->
+	<section class="modal" id="#enter_modal" style="display: none">
+		<div class="container">
+			<div class="yellow-block">
+				<p>14 Badges in 4 Styles: 56 Vectors PSDs & More - <span>Buy from <a href="#">GraphicsFuel.com</a></span></p>
+			</div>
+			<div class="rewards-block">
+				<a href="#"><img src="img/modal-page_reward_1.jpg" alt="" width="300" height="300"></img></a>
+				<a href="#"><img src="img/modal-page_reward_2.jpg" alt="" width="300" height="300"></img></a>
+				<a href="#"><img src="img/modal-page_reward_3.jpg" alt="" width="300" height="300"></img></a>
+				<a href="#"><img src="img/modal-page_reward_4.jpg" alt="" width="300" height="300"></img></a>
+				<a href="#"><img src="img/modal-page_reward_5.jpg" alt="" width="300" height="300"></img></a>
+				<a href="#"><img src="img/modal-page_reward_6.jpg" alt="" width="300" height="300"></img></a>
+				<a href="#"><img src="img/modal-page_reward_7.jpg" alt="" width="300" height="300"></img></a>
+				<a href="#"><img src="img/modal-page_reward_8.jpg" alt="" width="300" height="300"></img></a>
+				<a href="#"><img src="img/modal-page_reward_9.jpg" alt="" width="300" height="300"></img></a>
+				<a href="#"><img src="img/modal-page_reward_10.jpg" alt="" width="300" height="300"></img></a>
+				<a href="#"><img src="img/modal-page_reward_11.jpg" alt="" width="300" height="300"></img></a>
+				<a href="#"><img src="img/modal-page_reward_12.jpg" alt="" width="300" height="300"></img></a>
+				<div class="overlay"></div>	
+			</div>
+		</div>
+	</section>
+	<!-- End Modal
+	================================================================= -->
+
+
+
 	<!-- -Page title- -->
 	<div class="container page-title">
 		<h3>Contact Us</h3>
@@ -58,62 +88,62 @@
 			<div class="form-box">
 				<form action="">
 					<div class="form-row clearfix">
-					<span><input type="text" id="name" placeholder="Name"></span>
+						<span><input type="text" id="name" placeholder="Name"></span>
 					</div>
 					<div class="form-row clearfix">
-					<span><input type="email" id="email" placeholder="email address  (highlighted field)"></span>
+						<span><input type="email" id="email" placeholder="email address  (highlighted field)"></span>
 					</div>
 					<div class="form-row clearfix">
-					<span><input type="text" id="company" placeholder="Company name"></span>
+						<span><input type="text" id="company" placeholder="Company name"></span>
 					</div>
 					<div class="hint-block clearfix">
-					<p class="hint">Close project estimte option to just say hello</p>
-					<a href="#" class="close"></a>
+						<p class="hint">Close project estimte option to just say hello</p>
+						<a href="#" class="close"></a>
 					</div>
 					<div class="form-row toddler clearfix">
-					<div class="text-bl">
-					<h4>Project Estimate</h4>
-					<p>$1,000 - $42,000</p>
-					</div>
-					<span><input type="range" min="0" max="100" step="1" value="0"></span>
+						<div class="text-bl">
+							<h4>Project Estimate</h4>
+							<p>$1,000 - $42,000</p>
+						</div>
+						<span><input type="range" min="0" max="100" step="1" value="0"></span>
 					</div>
 					<div class="form-row toddler clearfix">
-					<div class="text-bl">
-					<h4>Time Frame</h4>
-					<p>4 weeks - 10 weeks</p>
-					</div>
-					<span><input type="range" min="0" max="100" step="1" value="0"></span>
+						<div class="text-bl">
+							<h4>Time Frame</h4>
+							<p>4 weeks - 10 weeks</p>
+						</div>
+						<span><input type="range" min="0" max="100" step="1" value="0"></span>
 					</div>
 				</form>
 				<div class="project-area">
-				<h4>Project Area</h4>
-				<div class="cell num1">
-					<a href="#"></a>
-					<p>Mobile Apps</p>
+					<h4>Project Area</h4>
+					<div class="cell num1">
+						<a href="#"></a>
+						<p>Mobile Apps</p>
+					</div>
+					<div class="cell num2">
+						<a href="#"></a>
+						<p>Brand Promotion</p>
+					</div>
+					<div class="cell num3">
+						<a href="#"></a>
+						<p>Web  Design & <br>Development</p>
+					</div>
+					<div class="cell num4">
+						<a href="#"></a>
+						<p>Graphic Design</p>
+					</div>
+					<div class="cell num5">
+						<a href="#"></a>
+						<p>Identity Creation</p>
+					</div>
+					<div class="cell num6">
+						<a href="#"></a>
+						<p>Motion Dynamics</p>
+					</div>
 				</div>
-				<div class="cell num2">
-					<a href="#"></a>
-					<p>Brand Promotion</p>
-				</div>
-				<div class="cell num3">
-					<a href="#"></a>
-					<p>Web  Design & <br>Development</p>
-				</div>
-				<div class="cell num4">
-					<a href="#"></a>
-					<p>Graphic Design</p>
-				</div>
-				<div class="cell num5">
-					<a href="#"></a>
-					<p>Identity Creation</p>
-				</div>
-				<div class="cell num6">
-					<a href="#"></a>
-					<p>Motion Dynamics</p>
-				</div>
-			</div>
-			<textarea name="message" id="" placeholder="Project Descrpition" cols="30" rows="10"></textarea>
-			<button>Submit Details</button>
+				<textarea name="message" id="" placeholder="Project Descrpition" cols="30" rows="10"></textarea>
+				<button>Submit Details</button>
 			</div>
 		</section>
 	<!-- End Your Details Block
@@ -202,6 +232,7 @@
 	================================================================= -->
 	<script src="vendor/jquery/jquery-3.2.0.min.js"></script>
 	<script src="vendor/slick/slick.min.js"></script>
+	<script scr="vendor/fancybox/jquery.fancybox.min.js"></script>
 	<script src="js/core.js"></script>
 </body>
 </html>

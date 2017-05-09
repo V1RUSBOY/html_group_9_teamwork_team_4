@@ -336,6 +336,143 @@ header{
 
 /*<!-- Our Services
 ============================================================ -->*/
+	.our-services{
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	flex-flow: wrap;
+	padding: 0 0 0 2%;
+}
+.services-block{
+	width: 640px;
+	height: 439px;
+	display: inline-block;
+	background: #eaeaea;
+	position: relative;
+	vertical-align: top;
+}
+.services-block .ico{
+	position: absolute;
+	display: block;
+}
+.num3>.ico, .num4>.ico{
+	top: 25%;
+	left: 20%;
+}
+.num1>.ico, .num2>.ico, .num5>.ico, .num6>.ico{
+	top: 25%;
+	right: 20%;
+}
+.services-block .triangle{
+	width: 0;
+	height: 0;
+	border-style: solid;
+	position: absolute;
+	top: 44%;
+	
+}
+.num1 .num2 .num3 >.triangle{
+	left: 300px;
+}
+.num4 .num5 .num6 >.triangle{
+	left: 320px;
+}
+.num1 .ico{
+	background: url(../img/home-page_services-block_sprite.png) 0px 0px no-repeat;
+	width: 83px;
+	height: 150px;
+}
+.num1 .triangle{
+	border-width: 17px 0 17px 20px;
+	border-color: transparent transparent transparent #00c59e;
+	left: 50%;
+}
+.num2 .ico{
+	background: url(../img/home-page_services-block_sprite.png) -97px -22px no-repeat;
+	width: 150px;
+	height: 106px;
+}
+.num2 .triangle{
+	border-width: 17px 0 17px 20px;
+	border-color: transparent transparent transparent #df4343;
+	left: 50%;
+}
+.num3 .ico{
+	background: url(../img/home-page_services-block_sprite.png) -261px -28px no-repeat;
+	width: 100px;
+	height: 100px;
+}
+.num3 .triangle{
+	border-width: 17px 20px 17px 0;
+	border-color: transparent #64b341 transparent transparent;
+	left: 47%;
+}
+.num4 .ico{
+	background: url(../img/home-page_services-block_sprite.png) 0px -157px no-repeat;
+	width: 100px;
+	height: 80px;
+}
+.num4 .triangle{
+	border-width: 17px 20px 17px 0;
+	border-color: transparent #874ab6 transparent transparent;
+	left: 47%;
+}
+.num5 .ico{
+	background: url(../img/home-page_services-block_sprite.png) -114px -157px no-repeat;
+	width: 100px;
+	height: 89px;
+}
+.num5 .triangle{
+	border-width: 17px 0 17px 20px;
+	border-color: transparent transparent transparent #ffa200;
+	left: 50%;
+}
+.num6 .ico{
+	background: url(../img/home-page_services-block_sprite.png) -228px -157px no-repeat;
+	width: 100px;
+	height: 78px;
+}
+.num6 .triangle{
+	border-width: 17px 0 17px 20px;
+	border-color: transparent transparent transparent #2f84e5;
+	left: 50%;
+}
+.additional-block{
+	width: 320px;
+	height: 439px;
+	color: #fff;
+	font-size: 40px;
+	text-transform: uppercase;
+	text-align: center;
+	vertical-align: bottom;
+}
+.additional-block p{
+	vertical-align: bottom;
+	margin: 0;
+}
+.additional-block::after{
+	content: '';
+	width: 50px;
+	height: 1px;
+	position: absolute;
+	top: 60%;
+	left: 21%;
+	background: #fff;
+}
+.num4>.additional-block, .num3>.additional-block{
+	float: right;
+}
+.num1>.additional-block, .num2>.additional-block, .num5>.additional-block, .num6>.additional-block{
+	float: left;
+}
+.num1>.additional-block{background: #00c59e;}
+.num2>.additional-block{background: #df4343;}
+.num3>.additional-block{background: #64b341;}
+.num4>.additional-block{background: #874ab6;}
+.num5>.additional-block{background: #ffa200;}
+.num6>.additional-block{background: #2f84e5;}
 
 
 /*<!-- End Our Services

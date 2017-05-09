@@ -134,7 +134,7 @@ header{
 	font-size: 0;
 }
 .carousel .slick-next.slick-arrow::before{
-	top: 30%
+	top: 30%;
 	cursor: pointer;
 	left: -66px;
 	background-position: 50% -26px;
@@ -643,10 +643,15 @@ footer .num>span{
 	background: #626262;
 }
 .flex-our-works{
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
-	flex-flow: nowrap;
+	-ms-flex-flow: nowrap;
+	    flex-flow: nowrap;
 	height: 100%;
-	justify-content: center;
+	-webkit-box-pack: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
 	margin-bottom: 70px;
 }
 .item-our-works{
@@ -685,10 +690,14 @@ footer .num>span{
 	background: #2f84e5;
 }
 .flex-our-works-img{
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
-	flex-flow: wrap;
+	-ms-flex-flow: wrap;
+	    flex-flow: wrap;
 	height: 100%;
-	justify-content: space-around;
+	-ms-flex-pack: distribute;
+	    justify-content: space-around;
 }
 .item-card a img{
 	display: block;

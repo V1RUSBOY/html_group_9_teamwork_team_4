@@ -63,5 +63,5 @@ $(document).ready(function(){
 		overlay.fadeIn(400, function(){   
 			$(current_modal).css('display', 'block').animate({top: '50%'},400);
 		});
-
+});
 	});

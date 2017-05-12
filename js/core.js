@@ -55,18 +55,18 @@ $('#contact-us').click(function(){
 
 
 $(document).ready(function() {
-   var open_modal = $('.open_modal');
-   var overlay = $('.overlay');
-   var modal = $('.modal');
-   var close = $('.close, .overlay');
-open_modal.click(function(event){    
-    event.preventDefault();
-    var current_modal = $(this).attr('href');
-    $(current_modal).fadeIn(1000);
-    overlay.toggle(500);
-    });
-close.click(function(){
-    modal.fadeOut(400);
-    overlay.toggle(700);
-    });
+	var open_modal = $('.open_modal');
+	var overlay = $('.overlay');
+	var modal = $('.modal');
+	var close = $('.close, .overlay');
+	open_modal.click(function(event){    
+		event.preventDefault();
+		var current_modal = $(this).attr('href');
+		$(current_modal).fadeIn(1000);
+		overlay.toggle(500);
+	});
+	close.click(function(){
+		modal.fadeOut(400);
+		overlay.toggle(700);
+	});
 });

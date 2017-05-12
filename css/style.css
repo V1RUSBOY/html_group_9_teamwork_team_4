@@ -36,7 +36,7 @@ header{
 	z-index: 4;
 }
 .header-top{
-	margin: 20px 0 0;
+	margin: 40px 0 0;
 	position: relative;
 }
 .logo{
@@ -511,7 +511,85 @@ header{
 
 /*<!--6. About Us
 ============================================================ -->*/
-
+.about-us{
+	background: url(../img/home-page_about-us-block_background.jpg); 
+}
+.min-about{
+	padding: 80px 80px 80px 80px;
+}
+.min-about h3{
+	font-size: 40px;
+	color: #fff;
+	text-transform: uppercase;
+	text-align: center;
+	margin: 0 0 134px -8px;
+	font-family: 'Lato', sans-serif;
+	font-weight: 400;
+	position: relative;
+}
+ .min-about h3::before{
+	content: '';
+	width: 50px;
+	height: 1px;
+	position: absolute;
+	top: 355px;
+	left: 47.9%;
+	background: #fff;
+}
+.min-about p{
+	font-size: 20px;
+	color: #fff;
+	text-align: center;
+	margin: 0 0 78px 0;
+	padding: 0px 55px 0 100px;
+	line-height: 36px;
+	font-family: 'Lato', sans-serif;
+	font-weight: 400;
+}
+.min-about .workers{
+	width: 350px;
+	display: inline-block;
+	box-sizing: border-box;
+	font-size: 0;
+	margin: 0 3.6% 20px 0;
+}
+.min-about .workers:last-child{
+	margin: 0;
+}
+.min-about .workers img{
+/*	border-bottom: 1px solid #fff;*/
+}
+.min-about .workers>p{
+	font-size: 16px;
+	color: #fff;
+	font-family: 'Lato', sans-serif;
+	font-weight: 700;
+	text-transform: uppercase;
+	border:1px solid #fff;
+	padding: 0 0 0 0;
+	margin: 0 0 0 0;
+	border-top: none;
+}
+.min-about .workers span{
+	display: block;
+}
+.min-about .workers .soc-ic{
+	display: inline-block;
+	width: 32px;
+	height: 27px;
+}
+.min-about .workers .soc-ic1{
+	background: url(../img/home-page_about-us-block_sprite.png) 4px 0px no-repeat;
+}
+.min-about .workers .soc-ic2{
+	background: url(../img/home-page_about-us-block_sprite.png) -52px 0px no-repeat;
+}
+.min-about .workers .soc-ic3{
+	background: url(../img/home-page_about-us-block_sprite.png) -111px 0px no-repeat;
+}
+.min-about .workers .soc-ic4{
+	background: url(../img/home-page_about-us-block_sprite.png) -167px 2px no-repeat;
+}
 
 /*<!--6. End About Us
 
@@ -641,13 +719,49 @@ header{
 	color: #fff;
 	text-transform: uppercase;
 	text-align: center;
-	margin: 0 0 0 -5px;
+	margin: 0 0 74px -5px;
 	font-family: 'Lato', sans-serif;
 	font-weight: 400;
 }
 .blue-block .block h4 span{
 	font-family: 'Lato', sans-serif;
 	font-weight: 700;
+}
+.ic-block {
+    width: 40%;
+    display: block;
+    margin: 0 auto 0 auto;
+}
+.blue-block .icons{
+	display: inline-block;
+	width: 64px;
+	height: 64px;
+	border: 1px solid transparent;
+	border-radius: 50%;
+	margin: 0 10px;
+}
+.blue-block .icons:hover{
+	border: 1px solid #fff;
+}
+.blue-block .icon1{
+	background: url(../img/main-icon-sprite.png) 0 0 no-repeat;
+	    margin: 0 39px 0 18px;
+}
+.blue-block .icon2{
+	background: url(../img/main-icon-sprite.png) -66px 0 no-repeat;
+	    margin: 0 25px 0 0;
+}
+.blue-block .icon3{
+	background: url(../img/main-icon-sprite.png) -129px 0 no-repeat;
+	    margin: 0 38px 0 0;
+}
+.blue-block .icon4{
+	background: url(../img/main-icon-sprite.png) -195px 0 no-repeat;
+	    margin: 0 42px 0 0;
+}
+.blue-block .icon5{
+	background: url(../img/main-icon-sprite.png) -260px 0 no-repeat;
+	    margin: 0 0 0 0;
 }
 
 /*<!--8. End Blue block
